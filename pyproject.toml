@@ -5,6 +5,8 @@ description = "A FastAPI extension to easily retrieve Celery tasks status"
 authors = ["Rary Coringa <rarycoringa@gmail.com>"]
 license = "MIT"
 readme = "README.md"
+homepage = "https://taskapi.rarycoringa.com"
+repository = "https://github.com/rarycoringa/taskapi"
 
 [tool.poetry.dependencies]
 python = "^3.8"
@@ -12,6 +14,7 @@ fastapi = ">=0.109.2,<0.110.0"
 
 [tool.poetry.group.test.dependencies]
 pytest = ">=8.0.0,<8.1.0"
+uvicorn = ">=0.27.1,<0.28.0"
 
 [build-system]
 requires = ["poetry-core"]
